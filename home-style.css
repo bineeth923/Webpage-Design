@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    background-color: lightblue;
+}
+p{
+    margin: 0;
+    height: auto;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    font-size: 18px;
+}
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#header,#slider,#section-1{
+    position: relative;
+}
+#header{
+    width: 100%;
+    height: 121px;
+    background-color: #0a6682;
+}
+#slider{
+    width: 100%;
+    height: 270px;
+    background-color: #6f3662;
+}
+#section-1{
+    background-color: #f8debd;
+    width: 100%;
+    height: 75%;
+}
+.sec-1-col{
+    float: left;
+}
+#sec-1-colomn-1{
+    width: 30%;
+}
+#sec-1-colomn-2{
+    width: 40%;
+}
+#sec-1-colomn-3{
+    width: 30%;
+}
+.card{
+    margin: .7em;
+    height: 96%;
+}
+#sec-1-card-2,#sec-1-card-3{
+    height: 46.53%;
+}
+#section-2{
+    height: 45%;
+    background-color: #96C0CE;
+}
+#section-3{
+    height: 100%;
+    background-color: #CCFFCC;
+}
+#sec-3-colomn-1{
+    width: 25%;
+}
+#sec-3-colomn-2{
+    width: 58%;
+}
+#sec-3-colomn-3{
+    width: 15%;
+}
+#sec-3-card-1{
+    height: 64%;
+}
+#sec-3-card-2{
+    height: 30%;
+}
+#sec-3-card-4,#sec-3-card-5,#sec-3-card-6{
+    height: 30.6%;
+}
+#section-4{
+    height: 45%;
+    background-color: coral;
+}
+#section-5{
+    height: 40%;
+}
+#section-6{
+    height: 60%;
+    background-color: #0a6682;
+}
