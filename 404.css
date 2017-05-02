@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background: url(img/bg1.png);
+    font-family: "Century Gothic",Arial, Helvetica, sans-serif;
+}
+#header {
+    width: 100%;
+    height: 200px;
+    background-color: #0a6682;
+}
+#header p{
+    margin: 0;
+    height: auto;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    font-size: 18px;
+}
+#footer{
+    height: 300px;
+    background-color: #0a6682;
+}
+#footer p{
+    height: auto;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    font-size: 18px;
+}
+.content p{
+    margin: 18px 0 45px 0;
+}
+.content p{
+    font-size:2em;
+    color:#666;
+    text-align:center;
+}
+.content p span,.logo h1 a{
+    color:#e54040;
+}
+.content{
+    text-align:center;
+    padding:115px 0 0 0;
+}
+.content a{
+    color:#fff;
+    background: #666666; /* Old browsers */
+    background: -moz-linear-gradient(top,  #666666 0%, #666666 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#666666), color-stop(100%,#666666)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #666666 0%,#666666 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #666666 0%,#666666 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #666666 0%,#666666 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #666666 0%,#666666 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#666666',GradientType=0 ); /* IE6-9 */
+    padding: 15px 20px;
+    border-radius: 1em;
+}
+.content a:hover{
+    color:#e54040;
+}
+@media screen and (max-width:1024px)	{
+    .content {
+        padding: 58px 0 0 0;
+    }
+    .content p {
+        font-size: 1.5em;
+    }
+}
