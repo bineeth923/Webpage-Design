@@ -12,8 +12,7 @@ p{
 }
 .container{
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 99vw;
 }
 #header,#slider,#section-1{
     position: relative;
@@ -30,20 +29,20 @@ p{
 }
 #section-1{
     background-color: #080d31;
-    width: 100%;
-    height: 75%;
+    width: 99vw;
+    height: 98vh;
 }
 .sec-1-col{
     float: left;
 }
 #sec-1-colomn-1{
-    width: 30%;
+    width: 29.7vw;
 }
 #sec-1-colomn-2{
-    width: 40%;
+    width: 39.6vw;
 }
 #sec-1-colomn-3{
-    width: 30%;
+    width: 29.7vw;
 }
 .card{
     margin: .4em;
@@ -53,40 +52,49 @@ p{
 .card .front , .card .back{
     box-shadow: 0 0 10px 0 black;
 }
+#sec-1-card-1{
+    height: 96vh;
+}
 #sec-1-card-2,#sec-1-card-3{
-    height: 47.3%;
+    height: 47.4vh;
+}
+#sec-1-card-4{
+    height: 96vh;
 }
 #section-2{
-    height: 45%;
+    height: 48.5vh;
     background-image: url("img/Intel_rearch-DC.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #section-3{
-    height: 100%;
+    height: 98vh;
     background-color: #CCFFCC;
 }
 #sec-3-colomn-1{
-    width: 25%;
+    width: 24.25vw;
 }
 #sec-3-colomn-2{
-    width: 60%;
+    width: 59.4vw;
 }
 #sec-3-colomn-3{
-    width: 15%;
+    width: 14.85vw;
 }
 #sec-3-card-1{
-    height: 64.6%;
+    height: 63.66vh;
 }
 #sec-3-card-2{
-    height: 30.3%;
+    height: 31.83vh;
+}
+#sec-3-card-3{
+    height: 96.25vh;
 }
 #sec-3-card-4,#sec-3-card-5,#sec-3-card-6{
-    height: 31.26%;
+    height: 31.5vh;
 }
 #section-4{
-    height: 45%;
+    height: 50vh;
     background-color: coral;
 }
 #section-5{
